@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.full-screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61ffff;
+}
+
+.form {
+  height: 500px;
+  width: 388px;
+  border: 1px solid black;
+}
+
+.paragraph {
+  height: 59px;
+  width: 225px;
+  display: flex;
+  margin: 32px 0px 0px 72px;
+  font-size: 39px;
+}
+
+.email-field {
+  height: 43px;
+  width: 322px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 26px 1px 1px 22px;
+}
+
+.username-field {
+  height: 43px;
+  width: 322px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 29px 1px 1px 22px;
+}
+
+.password-field {
+  height: 43px;
+  width: 322px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 29px 1px 1px 22px;
+}
+
+.number-field {
+  height: 43px;
+  width: 322px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 29px 1px 1px 22px;
+}
+
+.submit-btn {
+  height: 43px;
+  width: 92px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 43px 1px 1px 262px;
+}
+
+.clear-btn {
+  height: 43px;
+  width: 92px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 1px 1px 1px 24px;
+  position: relative;
+  bottom: 45px;
+}
+
+.btn-action{
+  text-decoration: none;
+  color: black;
+}
